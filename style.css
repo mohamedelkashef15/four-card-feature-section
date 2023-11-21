@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --light-gray: hsl(0, 0%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--light-gray);
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+#technology .technology-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#technology .technology-content .heading {
+  text-align: center;
+}
+
+#technology .technology-content .heading h1 {
+  font-size: 32px;
+  font-weight: 200;
+  color: var(--dark-blue);
+}
+
+#technology .technology-content .heading h2 {
+  font-size: 32px;
+  color: var(--dark-blue);
+  font-weight: 600;
+}
+
+#technology .technology-content .heading p {
+  color: var(--grayish-blue);
+  margin-top: 20px;
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+#technology .row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin-top: 4rem;
+  column-gap: 30px;
+}
+
+#technology .row .box {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+  height: 230px;
+  position: relative;
+  border-radius: 5px;
+}
+
+#technology .row .box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: var(--dark-blue);
+}
+
+#technology .row .box p {
+  font-size: 14px;
+  color: var(--grayish-blue);
+}
+
+#technology .row .box img {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+#technology .row .col-1 {
+  border-top: 4px solid var(--cyan);
+}
+
+#technology .row .col-2 .box-1 {
+  margin-bottom: 30px;
+  border-top: 4px solid var(--red);
+}
+
+#technology .row .col-2 .box-2 {
+  border-top: 4px solid var(--orange);
+}
+
+#technology .row .col-3 {
+  border-top: 4px solid var(--blue);
+}
