@@ -67,7 +67,7 @@ body {
   column-gap: 30px;
 }
 
-#technology .row .box {
+#technology .row .card {
   background-color: #fff;
   padding: 20px;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
@@ -76,37 +76,37 @@ body {
   border-radius: 5px;
 }
 
-#technology .row .box h3 {
+#technology .row .card h3 {
   font-size: 20px;
   margin-bottom: 10px;
   color: var(--dark-blue);
 }
 
-#technology .row .box p {
+#technology .row .card p {
   font-size: 14px;
   color: var(--grayish-blue);
 }
 
-#technology .row .box img {
+#technology .row .card img {
   position: absolute;
   bottom: 30px;
   right: 30px;
 }
 
-#technology .row .col-1 {
+#technology .row .card-1 {
   border-top: 4px solid var(--cyan);
 }
 
-#technology .row .col-2 .box-1 {
+#technology .row .card-2 .card-1 {
   margin-bottom: 30px;
   border-top: 4px solid var(--red);
 }
 
-#technology .row .col-2 .box-2 {
+#technology .row .card-2 .card-2 {
   border-top: 4px solid var(--orange);
 }
 
-#technology .row .col-3 {
+#technology .row .card-3 {
   border-top: 4px solid var(--blue);
 }
 
