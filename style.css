@@ -25,6 +25,7 @@ body {
 .container {
   max-width: 1100px;
   margin: auto;
+  padding: 0 2rem;
 }
 
 #technology .technology-content {
@@ -107,4 +108,17 @@ body {
 
 #technology .row .col-3 {
   border-top: 4px solid var(--blue);
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+
+  .container {
+    padding: 2rem;
+  }
+
+  #technology .row {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
 }
